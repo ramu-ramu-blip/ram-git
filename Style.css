@@ -1,0 +1,651 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+*{
+   box-sizing: border-box;
+    margin: 0;
+    font-family: "Quicksand", serif;
+  color: beige;
+
+}
+
+#first_page{
+    height: 100vh;
+    background-image: url("./ascets/logo\ skin.jpg");
+    /* background-color: black; */
+    background-size: cover;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+    
+nav{
+    display: flex;
+   height: 12vh;
+  
+}
+#nav1{
+flex-basis: 25%;
+
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+}
+#nav2{
+    flex-basis: 60%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav3{
+    flex-basis: 15%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+
+}
+#cartbag{
+fill: white;
+height: 17px;
+width: 18px;
+
+}
+ header>button{
+    background-color:rgb(190, 189, 165);
+    background-color: transparent;
+    padding: 7px;
+    width: 100px;
+    transition: all 500ms ease 0s;
+}
+
+
+header>button:hover{
+    color: #fa2d64;
+    background-color: #fff;
+}
+
+#cart{
+    color:black;
+    position: relative;
+    right: 15px;
+    bottom: 10px;
+    background-color: white;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    font-weight: 2px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#user{
+    fill: white;
+    height: 17px;
+}
+bdi{
+    color: rgb(238, 225, 225);
+}
+#head1{
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 150px;
+    gap: 70px;
+   
+}
+header>p::selection,header>h1::selection,header>button::selection,br::selection{
+    background-color: #fa2d64; 
+    /* color: black; */
+    
+}
+header>h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+
+/* secongpage */
+#second_page{
+   min-width: none;
+    width: 100vw;
+    /* border: 1px solid red; */
+
+    background-color: transparent; 
+   flex-direction: column;
+  
+    
+}
+
+#newparent{
+    width: 100vw;
+   
+    /* border: 2px solid rgb(60, 95, 209); */
+
+}
+#cream1{
+   flex-basis: 40%;
+   height: 350PX;
+    /* border: 2px solid rgb(209, 182, 60); */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+    }
+    #cream1>div{
+        height: 330px;
+        width: 210px;
+    } 
+
+    
+    #pro1>p{
+        color:rgba(0, 0, 0, 0.877);
+        filter: blur(0%);
+    }
+    #prod2>p{
+        color:rgba(0, 0, 0, 0.877);
+    }
+    #prod3>p{
+        color:rgba(0, 0, 0, 0.877);
+    }
+    #prod4>p{
+        color:rgba(0, 0, 0, 0.877);
+    }
+    #cle{
+      color: rgba(0, 0, 0, 0.377);
+    }
+
+    #hi{
+        height: 250px;
+        width: 200px;
+    }
+    
+    #cream2{
+        height: 350PX;
+        flex-basis: 40%;
+        /* border: 2px solid rgb(209, 60, 202); */
+    
+    }
+
+
+ #arrivals{
+    display: flex;
+    flex-basis: 50%;
+    color:black;
+   
+    justify-content: center;
+    align-items: center;
+   font-size: 30px;
+   
+}
+#shopping{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: center;
+   
+   
+   
+    width: 100px;
+    transition: all 500ms ease 0s;
+}
+#nowbutton{
+    width: 100px;
+    color: rgb(204, 149, 149);
+    transition: all 500ms ease 0s;
+     background-color: transparent;
+      padding: 7px;
+     
+}
+#nowbutton:hover{
+    color: #eedee2;
+    background-color: #ce3b67;  
+} 
+
+#cream2{
+    flex-basis: 40%;
+    height: 350PX;
+     /* border: 2px solid rgb(209, 182, 60); */
+     display: flex;
+     justify-content: center;
+     gap: 30px;
+     }
+     #cream1>div{
+         height: 330px;
+         width: 210px;
+     } 
+
+     #third_page{
+        /* width: 100vw; */
+        /* min-width: none; */
+        min-height: 100vh;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 90px;
+        padding-top: 200px;
+        padding-bottom: 120px;
+       background-color:rgba(202, 219, 219, 0.151) ;
+
+     }
+     #model3{
+       
+        height: 580px;
+        width: 400px;
+     /* border: 1px solid violet; */
+     background-image: url("./ascets/page3img.jpg");
+        background-size: cover;
+     }
+     #model4{
+      /* border: 1px solid red; */
+       height: 440px;
+        width: 400px;
+        padding: 50px;
+     }
+     #model4>h5{
+        color: black;
+        font-size: 28px;
+        font-weight: 1;
+        font-family: Gotham, Optima, and Baskerville ;
+
+     }
+     #model4>p{
+        color: rgba(0, 0, 0, 0.473);
+        font-style: inherit;
+       
+        font-weight: inherit;
+       font-family: Lorem Ipsum;
+        vertical-align: baseline;
+
+     }
+     #model4>button{
+        width: 110px;
+        color: #ce3b67;
+        padding: 9px;
+        border: 1px solid rgb(201, 58, 82);
+        
+     }
+     #model4>button:hover{
+        background-color: #fa2d64;
+        color: white;
+     }  
+
+#four_page{
+    width: 100vw;
+    height: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+#content>p{
+    color: rgba(0, 0, 0, 0.521);
+    width:35% ;
+    padding: 90px;
+    font-style: inherit;     
+     font-weight: 1;
+       font-family: Lorem Ipsum;
+        vertical-align: baseline;
+}
+
+
+#five_page{
+  min-height: 88vh;
+  /* border: 1px solid black; */
+  background-image: url("./ascets/skincare.jpg");
+  padding: 80px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  
+}
+#five_page>button{
+    height: 35px;
+   width: 200px;
+   color: white;
+   background-color: transparent;
+   font-weight: 400;
+   border: 1px solid white;
+   /* padding-top: 10px;
+   padding-bottom: 10px; */
+   padding: 10px;
+   
+}
+#five_page>button:hover{
+    color: rgb(0, 0, 0); 
+    background-color: white;
+
+}
+#five_page>p{
+    font-size:27px;
+    font-weight: 500;
+}
+#five_page>i:hover{
+   color: black;
+}
+
+#six_page{
+    /* width: 100vw;  */
+   height: 100vh; 
+    
+    display: flex;
+    flex-direction: column;
+   
+   
+}
+#page61{
+flex-basis: 30%;
+   
+}
+#page61>h6{
+    color: black;
+    font-size: 35px;
+    font-weight: 350;
+    align-content: center;
+    position: relative;
+    left: 430px;
+    font-family: Helvetica;
+}
+#page61>p{
+    color: black;
+    position: relative;
+    font-size: 14px;
+    top: 120px;
+    right: 10px;
+    font-weight: 100;
+}
+#page62{
+    
+    flex-basis: 70%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.pageframe1 {
+    height: 390px;
+        width: 210px;
+  
+}
+#seven_page{
+    height:90vh;
+  
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(202, 219, 219, 0.151) ;
+    
+}
+#head11{
+    width: 100vw;
+    height: 80px;
+    
+}
+#head11>h1{
+    color: black;
+    margin-left: 460px;
+    font-family:Quicksand, sans-serif;
+
+    font-weight: 350;
+    font-size: 33px;
+    
+}
+#contenthead{
+    height: 300px;
+    width: 100vw;
+   
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+#contenthead>div{
+    height: 300px;
+    width:330px;
+    
+
+}
+.starrating>i{
+  color: #fa2d64;
+  font-size: 11px;
+  position: relative;
+  left: 100px;
+  top: 40px;
+  
+}
+.starrating>p{
+    color: rgb(31, 28, 28);
+    position: relative;
+   
+    text-indent: 24px;
+  top: 40px;
+}
+.starrating>h6{
+    color: black;
+    position: relative; 
+    font-size: 16px;
+    top:40px;
+    text-indent: 75px;
+    font-weight: 400;
+}
+.starrating>nav{
+    height: 41px;
+   width: 41px;
+   
+   position: relative; 
+   font-size: 16px;
+   top:58px;
+   left: 120px;
+border-radius: 50%;
+}
+#profile1{
+    background-image: url("./ascets/profile1.jpg");
+}
+#profile2{
+    background-image: url("./ascets/profile2.jpg");
+}
+#profile3{
+    background-image: url("./ascets/profile3.jpg");
+}
+.starrating>h5{
+    color:rgba(0, 0, 0, 0.575);
+  font-size: 12px;
+    position: relative;
+    left: 100px;
+    top: 70px;
+    text-transform: uppercase;
+    font-family: Quicksand, sans-serif;
+    
+}
+#eight_page{
+    height: 100vh;
+   
+}
+#eight_page>p{
+    color: black;
+    margin-left:550px ;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Quicksand, sans-serif;
+}
+ 
+#eight_page>h6{
+    color: black;
+   margin-left: 643px;
+   margin-top: -24px;
+   font-size: 19px;
+   font-weight: 400;
+   text-decoration: underline;
+   font-family: Quicksand, sans-serif;
+}
+
+#framecontainer{
+    height: 570px;
+    width: 800px;
+    
+    margin: 0px auto;
+
+}
+
+#frame1{
+    display: flex;
+    gap: 39px;
+}
+#frame1>div{
+    height: 240px;
+    width: 240px;
+    
+    margin-top: 40px;
+
+}
+#frame2{
+    display: flex;
+    gap: 39px;
+}
+#frame2>div{
+    height: 240px;
+    width: 240px;
+   
+    margin-top: 250px;
+}
+
+#f1{
+    background-image: url("./ascets/f1.jpg");
+    background-position: center;
+}
+#f2{
+    background-image: url("./ascets/f2.jpg");
+    background-position: center;
+}
+#f3{
+    background-image: url("./ascets/f3.jpg");
+    background-position: center;
+}
+#f4{
+    background-image: url("./ascets/f4.jpg");
+    background-position: center;
+}
+#f5{
+    background-image: url("./ascets/f5.jpg");
+    background-position: center;
+}
+#f6{
+    background-image: url("./ascets/f6.jpg");
+    background-position: center;
+}
+#nine_page{
+    width: 100vw;
+    height: 140px;
+    background-color:rgba(202, 219, 219, 0.199) ;
+    margin-top: 100px;
+    border-bottom: 1px solid rgba(202, 219, 219, 0.637);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+#nine_page>div{
+    height: 80px;
+    width: 230px;
+   
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  
+
+}
+.nav1{
+    flex-basis: 17%;
+    background-color: #ece8e99f;
+    height:40px ;
+     width: 40px;
+    border-radius: 50%;
+}
+.nav2{
+    flex-basis: 90%;
+    height:40px ;
+  
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+   
+}
+.nav2>p{
+    color: black;
+    font-size: 10px;
+}
+.nav2>h6{
+    color: rgba(0, 0, 0, 0.733);
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.nav1>i{
+    color:#ce3b67 ;
+    align-content: center;
+margin-left: 8px;
+font-size: 14px;
+}
+#question>i{
+    margin-left: 13px;
+}
+#tenth_page{
+height: 68vh;
+background-color:rgba(202, 219, 219, 0.199) ;
+display: flex;
+flex-direction: column;
+  background-color: #ece8e9ab;
+}
+#nav10{
+    flex-basis: 80%;
+}
+
+#nav10>img{
+   
+     margin-left: 610px;
+     margin-top: 80px;
+   
+}
+
+#anchortags>a{
+    color: black;
+    
+}
+#anchortags{
+    height: 90px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    gap: 40px;
+    margin-top:101px ;
+    margin-left:-310px;
+}
+#logo33{
+    height: 16px;
+    
+    margin-top:190px ;
+    margin-left:-279px; 
+    display: flex;
+    gap: 18px;
+}
+#logo33>img:hover{
+    color: #ce3b67;
+}
+#nav11 >p{
+   color: black; 
+   align-content: center;
+   margin-left: 490px;
+   font-size: 11.5px;
+}
+
